@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- Age Calculator -->
+      <div class="card">
+        <h1>Age Calculator</h1>
+        <label for="birthday-day">Enter your day of birth</label>
+        <input type="date" id="birthday-day" />
+        <div class="btn-form">
+          <button id="age-calculator">Calculate</button>
+        </div>
+        <p id="result">Your age is</p>
+      </div>
+
+      <!-- Tip Calculator -->
+      <div class="card">
+        <h1>Tip Calculator</h1>
+        <p>Let's calculate how much money need to pay</p>
+        <label for="bill">Bill</label>
+        <input type="number" id="bill" />
+        <label for="tip">Tip</label>
+        <input type="number" id="tip" />
+        <div class="btn-form">
+          <button id="tip-calculator">Calculate</button>
+        </div>
+        <p>Total:<span id="total-result"></span></p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
