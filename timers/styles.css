@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fb;
+  color: #333;
+}
+
+.main {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font: 700 30px/32px "Inter", sans-serif;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.timer-text {
+  margin-bottom: 20px;
+  font: 30px/32px "Inter", sans-serif;
+  color: #172544;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#start {
+  background: #4caf50;
+  color: white;
+}
+
+#start:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(76, 175, 80, 0.3);
+}
+
+#stop {
+  background: #ff5252;
+  color: white;
+}
+
+#stop:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 82, 82, 0.3);
+}
+
+#reset {
+  background: #f1f3f6;
+  color: #333;
+}
+
+#reset:hover {
+  background: #e4e7ec;
+}
